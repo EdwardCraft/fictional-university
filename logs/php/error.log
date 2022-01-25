@@ -1,0 +1,58 @@
+[19-Jan-2022 19:58:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_contest() in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:8
+Stack trace:
+#0 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/edward/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/edward/L...')
+#2 /Users/edward/Local Sites/fictional-university/app/public/index.php(17): require('/Users/edward/L...')
+#3 {main}
+  thrown in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 8
+[19-Jan-2022 21:21:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_file_ur() in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:4
+Stack trace:
+#0 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(303): university_files('')
+#1 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2083): do_action('wp_enqueue_scri...')
+#4 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(303): wp_enqueue_scripts('')
+#5 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/plu in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[19-Jan-2022 21:28:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 5
+[19-Jan-2022 21:29:15 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 5
+[19-Jan-2022 21:36:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 13
+[19-Jan-2022 21:36:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 13
+[19-Jan-2022 22:45:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php:4
+Stack trace:
+#0 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/template.php(716): load_template('/Users/edward/L...', true, Array)
+#2 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php(2): get_header()
+#4 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/edward/L...')
+#5 /Users/edward/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/edward/L...')
+#6 /Users/edward/Local Sites/fictional-university/app/public/index in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 4
+[25-Jan-2022 17:55:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 19
+[25-Jan-2022 17:55:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function header_post() in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:14
+Stack trace:
+#0 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/edward/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/edward/L...')
+#2 /Users/edward/Local Sites/fictional-university/app/public/index.php(17): require('/Users/edward/L...')
+#3 {main}
+  thrown in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 14
+[25-Jan-2022 17:56:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:14
+Stack trace:
+#0 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/edward/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/edward/L...')
+#2 /Users/edward/Local Sites/fictional-university/app/public/index.php(17): require('/Users/edward/L...')
+#3 {main}
+  thrown in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 14
+[25-Jan-2022 17:56:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:14
+Stack trace:
+#0 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/edward/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/edward/L...')
+#2 /Users/edward/Local Sites/fictional-university/app/public/index.php(17): require('/Users/edward/L...')
+#3 {main}
+  thrown in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 14
+[25-Jan-2022 18:06:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_autor_posts_link() in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:19
+Stack trace:
+#0 /Users/edward/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/edward/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/edward/L...')
+#2 /Users/edward/Local Sites/fictional-university/app/public/index.php(17): require('/Users/edward/L...')
+#3 {main}
+  thrown in /Users/edward/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 19
